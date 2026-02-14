@@ -38,8 +38,8 @@ public class ataque : MonoBehaviour
     //    Rigidbody2D cl = clon.GetComponent<Rigidbody2D>(); // se optienen todos los componentes del rigi bodi
     //    cl.velocity = (arma.right * velocidad);
     //    cl.velocity = direccion * velocidad;
-    //}
-    private void OnTriggerEnter2D(Collider2D collision)
+    //
+    private void OnTriggerEnter2D(Collider2D collision) // colicion mediante triger
     {
         if (collision.gameObject.tag == "piso")
         {

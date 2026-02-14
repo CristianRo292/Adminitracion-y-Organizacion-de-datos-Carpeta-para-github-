@@ -84,7 +84,7 @@ public class mover : MonoBehaviour
         }
 
     }
-    private void OnCollisionEnter2D(Collision2D collision) // esta funcion se activa cada que mi objeto tenga una colicion
+    private void OnCollisionEnter2D(Collision2D collision) // esta funcion se activa cada que mi objeto tenga una colicion por box colaider
     {
         if (collision.gameObject.CompareTag("piso")) // si coliciona con el piso
         {

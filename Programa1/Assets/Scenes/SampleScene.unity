@@ -395,7 +395,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 30
+  m_GravityScale: 50
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -466,7 +466,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidad: 500
   tocar_piso: 0
-  fuerza: 350
+  fuerza: 450
   poder: {fileID: 8725198619177047516, guid: 08c3a9b3f0fa30e4c8e660ee56313e28, type: 3}
   arma: {fileID: 1769764549}
   velocidadBala: 30
