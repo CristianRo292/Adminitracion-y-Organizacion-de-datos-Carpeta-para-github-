@@ -1,0 +1,6 @@
+crisitan , 12 , 2
+cefre , 12 , 1
+juanrs , 34 , 23
+pepe , 34 , 54.3
+pepe , 23 , 43
+asd , 234 , 23

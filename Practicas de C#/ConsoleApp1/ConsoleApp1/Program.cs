@@ -23,7 +23,7 @@ using System;
 
 int n1, n2, n3, n4;
 float prom = 0.0f;
-
+  
 Console.WriteLine("Escribe 4 numeros");
 
 n1 = Convert.ToInt32(Console.ReadLine());
@@ -31,6 +31,6 @@ n2 = Convert.ToInt32(Console.ReadLine());
 n3 = Convert.ToInt32(Console.ReadLine());
 n4 = Convert.ToInt32(Console.ReadLine());
 
-prom = (float)(n1 + n2 + n3 + n4);
+prom = (float)(n1 + n2 + n3 + n4)/4;
 Console.WriteLine("Promedio es: " + prom);
 

@@ -90,6 +90,7 @@ public class Mover : MonoBehaviour
         {
             musicb.Play();
             print("suena musiquita de hongo verde");
+            Destroy(collision.gameObject);
         }
     }
 }

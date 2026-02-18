@@ -49,10 +49,7 @@ public class mover : MonoBehaviour
             print("disparas");
             anime.SetTrigger("disparar");
         }
-        // coordY = Input.GetAxis("Vertical");
-
-        //Vector3 mover = new Vector3(coordX, coordY, 0);
-        //transform.position += mover * velocidad * Time.deltaTime;
+       
 
         
 
@@ -99,9 +96,9 @@ public class mover : MonoBehaviour
         Vector2 direccion = verDerecha ? Vector2.right : Vector2.left; // si esta mirando igual que mi variabke entonces 
         float angulo = verDerecha ? 0f : 180f; // rota la bala hacia donde esta apuntando el personaje
         GameObject clon = Instantiate(poder,arma.position, Quaternion.Euler(0, 0, angulo));
-        // GameObject clon = Instantiate(poder, arma.position, arma.rotation);
+        
         Rigidbody2D cl = clon.GetComponent<Rigidbody2D>(); // se optienen todos los componentes del rigi bodi
-        // cl.velocity = (arma.right * velocidad);
+        
         cl.velocity = direccion * velocidadBala;
     }
 }

@@ -1,0 +1,8 @@
+C:\Users\roc53\Documents\SEMESTRE 4\AdmOrgaDatos\Unity\Parcial 2\Practica 1 Archivos\Practica 1 Archivos\bin\Debug\Practica 1 Archivos.exe.config
+C:\Users\roc53\Documents\SEMESTRE 4\AdmOrgaDatos\Unity\Parcial 2\Practica 1 Archivos\Practica 1 Archivos\bin\Debug\Practica 1 Archivos.exe
+C:\Users\roc53\Documents\SEMESTRE 4\AdmOrgaDatos\Unity\Parcial 2\Practica 1 Archivos\Practica 1 Archivos\bin\Debug\Practica 1 Archivos.pdb
+C:\Users\roc53\Documents\SEMESTRE 4\AdmOrgaDatos\Unity\Parcial 2\Practica 1 Archivos\Practica 1 Archivos\obj\Debug\Practica 1 Archivos.csproj.AssemblyReference.cache
+C:\Users\roc53\Documents\SEMESTRE 4\AdmOrgaDatos\Unity\Parcial 2\Practica 1 Archivos\Practica 1 Archivos\obj\Debug\Practica 1 Archivos.csproj.CoreCompileInputs.cache
+C:\Users\roc53\Documents\SEMESTRE 4\AdmOrgaDatos\Unity\Parcial 2\Practica 1 Archivos\Practica 1 Archivos\obj\Debug\Practica 1 Archivos.exe
+C:\Users\roc53\Documents\SEMESTRE 4\AdmOrgaDatos\Unity\Parcial 2\Practica 1 Archivos\Practica 1 Archivos\obj\Debug\Practica 1 Archivos.pdb
+C:\Users\roc53\Documents\SEMESTRE 4\AdmOrgaDatos\Unity\Parcial 2\Practica 1 Archivos\Practica 1 Archivos\obj\Debug\Practica 1 Archivos.exe.config
