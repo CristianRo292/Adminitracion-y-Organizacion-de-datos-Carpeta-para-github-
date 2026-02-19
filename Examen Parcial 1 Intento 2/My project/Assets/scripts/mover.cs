@@ -20,6 +20,7 @@ public class mover : MonoBehaviour
     public AudioSource music1;
     public AudioSource music2;
     public AudioSource music3;
+    public AudioSource musica5;
     //public AudioSource music4;
 
     void Start()
@@ -112,18 +113,24 @@ public class mover : MonoBehaviour
         if (collision.gameObject.tag == "caballero")
         {
             print("suena musiquita");
+            music2.Stop();
+            music3.Stop();
             music1.Play();
             // Destroy(gameObject);
         }
         if (collision.gameObject.tag == "rey")
         {
             music2.Play();
+            music1.Stop();
+            music3.Stop();
             print("suena musiquita de rey");
             //  Destroy(collision.gameObject);
         }
         if (collision.gameObject.tag == "reina")
         {
-            music2.Play();
+            music3.Play();
+            music2.Stop();
+            music1.Stop();
             print("suena musiquita de reina");
             // Destroy(collision.gameObject);
         }
@@ -131,7 +138,10 @@ public class mover : MonoBehaviour
         {
             print("suena musiquita");
             
-            Destroy(collision.gameObject);
+            
+            musica5.Play();
+ 
+            transform.position += new Vector3(0, 0, 1);
         }
 
 
