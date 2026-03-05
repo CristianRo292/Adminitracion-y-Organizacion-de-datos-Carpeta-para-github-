@@ -1,0 +1,15 @@
+C:\Users\roc53\Documents\SEMESTRE 4\AdmOrgaDatos\Unity\Parcial 2\Practica 02032026\Practica 02032026\obj\Debug\net8.0\Practica 02032026.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roc53\Documents\SEMESTRE 4\AdmOrgaDatos\Unity\Parcial 2\Practica 02032026\Practica 02032026\obj\Debug\net8.0\Practica 02032026.AssemblyInfoInputs.cache
+C:\Users\roc53\Documents\SEMESTRE 4\AdmOrgaDatos\Unity\Parcial 2\Practica 02032026\Practica 02032026\obj\Debug\net8.0\Practica 02032026.AssemblyInfo.cs
+C:\Users\roc53\Documents\SEMESTRE 4\AdmOrgaDatos\Unity\Parcial 2\Practica 02032026\Practica 02032026\obj\Debug\net8.0\Practica 02032026.csproj.CoreCompileInputs.cache
+C:\Users\roc53\Documents\SEMESTRE 4\AdmOrgaDatos\Unity\Parcial 2\Practica 02032026\Practica 02032026\obj\Debug\net8.0\Practica 02032026.sourcelink.json
+C:\Users\roc53\Documents\SEMESTRE 4\AdmOrgaDatos\Unity\Parcial 2\Practica 02032026\Practica 02032026\bin\Debug\net8.0\Practica 02032026.exe
+C:\Users\roc53\Documents\SEMESTRE 4\AdmOrgaDatos\Unity\Parcial 2\Practica 02032026\Practica 02032026\bin\Debug\net8.0\Practica 02032026.deps.json
+C:\Users\roc53\Documents\SEMESTRE 4\AdmOrgaDatos\Unity\Parcial 2\Practica 02032026\Practica 02032026\bin\Debug\net8.0\Practica 02032026.runtimeconfig.json
+C:\Users\roc53\Documents\SEMESTRE 4\AdmOrgaDatos\Unity\Parcial 2\Practica 02032026\Practica 02032026\bin\Debug\net8.0\Practica 02032026.dll
+C:\Users\roc53\Documents\SEMESTRE 4\AdmOrgaDatos\Unity\Parcial 2\Practica 02032026\Practica 02032026\bin\Debug\net8.0\Practica 02032026.pdb
+C:\Users\roc53\Documents\SEMESTRE 4\AdmOrgaDatos\Unity\Parcial 2\Practica 02032026\Practica 02032026\obj\Debug\net8.0\Practica 02032026.dll
+C:\Users\roc53\Documents\SEMESTRE 4\AdmOrgaDatos\Unity\Parcial 2\Practica 02032026\Practica 02032026\obj\Debug\net8.0\refint\Practica 02032026.dll
+C:\Users\roc53\Documents\SEMESTRE 4\AdmOrgaDatos\Unity\Parcial 2\Practica 02032026\Practica 02032026\obj\Debug\net8.0\Practica 02032026.pdb
+C:\Users\roc53\Documents\SEMESTRE 4\AdmOrgaDatos\Unity\Parcial 2\Practica 02032026\Practica 02032026\obj\Debug\net8.0\Practica 02032026.genruntimeconfig.cache
+C:\Users\roc53\Documents\SEMESTRE 4\AdmOrgaDatos\Unity\Parcial 2\Practica 02032026\Practica 02032026\obj\Debug\net8.0\ref\Practica 02032026.dll

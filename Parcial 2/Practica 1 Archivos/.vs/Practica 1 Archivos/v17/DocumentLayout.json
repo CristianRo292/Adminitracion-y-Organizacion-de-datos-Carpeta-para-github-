@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\roc53\\Documents\\SEMESTRE 4\\AdmOrgaDatos\\Unity\\Parcial 2\\Practica 1 Archivos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF9AAE81-24F5-428A-9D93-1580E9988868}|Practica 1 Archivos\\Practica 1 Archivos.csproj|c:\\users\\roc53\\documents\\semestre 4\\admorgadatos\\unity\\parcial 2\\practica 1 archivos\\practica 1 archivos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA54C264-B3C2-48ED-9F69-C29D625F3B9D}|Practica 2\\Practica 2.csproj|c:\\users\\roc53\\documents\\semestre 4\\admorgadatos\\unity\\parcial 2\\practica 1 archivos\\practica 2\\validaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA54C264-B3C2-48ED-9F69-C29D625F3B9D}|Practica 2\\Practica 2.csproj|solutionrelative:practica 2\\validaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA54C264-B3C2-48ED-9F69-C29D625F3B9D}|Practica 2\\Practica 2.csproj|c:\\users\\roc53\\documents\\semestre 4\\admorgadatos\\unity\\parcial 2\\practica 1 archivos\\practica 2\\program1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA54C264-B3C2-48ED-9F69-C29D625F3B9D}|Practica 2\\Practica 2.csproj|solutionrelative:practica 2\\program1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF9AAE81-24F5-428A-9D93-1580E9988868}|Practica 1 Archivos\\Practica 1 Archivos.csproj|C:\\Users\\roc53\\Documents\\SEMESTRE 4\\AdmOrgaDatos\\Unity\\Parcial 2\\Practica 1 Archivos\\practica 1 archivos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF9AAE81-24F5-428A-9D93-1580E9988868}|Practica 1 Archivos\\Practica 1 Archivos.csproj|solutionrelative:practica 1 archivos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,19 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\roc53\\Documents\\SEMESTRE 4\\AdmOrgaDatos\\Unity\\Parcial 2\\Practica 1 Archivos\\Practica 1 Archivos\\Program.cs",
               "RelativeDocumentMoniker": "Practica 1 Archivos\\Program.cs",
               "ToolTip": "C:\\Users\\roc53\\Documents\\SEMESTRE 4\\AdmOrgaDatos\\Unity\\Parcial 2\\Practica 1 Archivos\\Practica 1 Archivos\\Program.cs",
               "RelativeToolTip": "Practica 1 Archivos\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwB0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T14:12:47.922Z",
+              "WhenOpened": "2026-02-25T18:30:44.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Validaciones.cs",
+              "DocumentMoniker": "C:\\Users\\roc53\\Documents\\SEMESTRE 4\\AdmOrgaDatos\\Unity\\Parcial 2\\Practica 1 Archivos\\Practica 2\\Validaciones.cs",
+              "RelativeDocumentMoniker": "Practica 2\\Validaciones.cs",
+              "ToolTip": "C:\\Users\\roc53\\Documents\\SEMESTRE 4\\AdmOrgaDatos\\Unity\\Parcial 2\\Practica 1 Archivos\\Practica 2\\Validaciones.cs",
+              "RelativeToolTip": "Practica 2\\Validaciones.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwDsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T17:18:11.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program1.cs",
+              "DocumentMoniker": "C:\\Users\\roc53\\Documents\\SEMESTRE 4\\AdmOrgaDatos\\Unity\\Parcial 2\\Practica 1 Archivos\\Practica 2\\Program1.cs",
+              "RelativeDocumentMoniker": "Practica 2\\Program1.cs",
+              "ToolTip": "C:\\Users\\roc53\\Documents\\SEMESTRE 4\\AdmOrgaDatos\\Unity\\Parcial 2\\Practica 1 Archivos\\Practica 2\\Program1.cs",
+              "RelativeToolTip": "Practica 2\\Program1.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAowFMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T17:17:28.18Z",
               "EditorCaption": ""
             }
           ]

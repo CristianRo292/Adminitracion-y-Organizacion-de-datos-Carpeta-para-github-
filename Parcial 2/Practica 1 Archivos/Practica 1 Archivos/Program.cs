@@ -11,6 +11,7 @@ namespace Practica_1_Archivos
     {
         static void Main(string[] args)
         {
+            // Console.WriteLine($"Versión de .NET: {System.Runtime.InteropServices.RuntimeInformation.FrameworkDescription}");
             string nombreArchivo = "datos.txt";
             string nombre;
             int edad;
@@ -25,8 +26,13 @@ namespace Practica_1_Archivos
                 do
                 {
                     datos = leerArchivo.ReadLine();
-                    string[] d = datos.Split(" , ");
-                    Console.WriteLine("el nombre es:" + d[0]); // aqui la "+" si importa, la coma actua difrentes 
+                    if (datos != null)
+                    {
+                        string[] d = datos.Split(" , ");
+                        Console.WriteLine("el nombre es:" + d[0]); // aqui la "+" si importa, la coma actua difrentes 
+                        Console.WriteLine("La esad es: " + d[1]);
+                        Console.WriteLine("La estatura es: " + d[2]);
+                    }
                 }
                 while (datos != null); // se repite hasta que el archivo regrese un valor null
                 leerArchivo.Close();

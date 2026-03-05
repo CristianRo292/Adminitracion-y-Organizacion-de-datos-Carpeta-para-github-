@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "r+exGu+px9Y=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\roc53\\Documents\\SEMESTRE 4\\AdmOrgaDatos\\Unity\\Parcial 2\\Practica 1 Archivos\\Practica 2\\Practica 2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\roc53\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.22\\microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\roc53\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\roc53\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.22\\microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\roc53\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.22\\microsoft.netcore.app.host.win-x64.8.0.22.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error al obtener los datos de vulnerabilidad del paquete: No se puede cargar el índice de servicio para el origen https://api.nuget.org/v3/index.json.",
+      "projectPath": "C:\\Users\\roc53\\Documents\\SEMESTRE 4\\AdmOrgaDatos\\Unity\\Parcial 2\\Practica 1 Archivos\\Practica 2\\Practica 2.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\roc53\\Documents\\SEMESTRE 4\\AdmOrgaDatos\\Unity\\Parcial 2\\Practica 1 Archivos\\Practica 2\\Practica 2.csproj",
+      "targetGraphs": []
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\roc53\\Documents\\SEMESTRE 4\\AdmOrgaDatos\\Unity\\Parcial 2\\Practica 02032026\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{548A966E-FE7F-4BB9-A994-E30CEDE1F5F1}|Practica 02032026\\Practica 02032026.csproj|c:\\users\\roc53\\documents\\semestre 4\\admorgadatos\\unity\\parcial 2\\practica 02032026\\practica 02032026\\validaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{548A966E-FE7F-4BB9-A994-E30CEDE1F5F1}|Practica 02032026\\Practica 02032026.csproj|solutionrelative:practica 02032026\\validaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{548A966E-FE7F-4BB9-A994-E30CEDE1F5F1}|Practica 02032026\\Practica 02032026.csproj|c:\\users\\roc53\\documents\\semestre 4\\admorgadatos\\unity\\parcial 2\\practica 02032026\\practica 02032026\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{548A966E-FE7F-4BB9-A994-E30CEDE1F5F1}|Practica 02032026\\Practica 02032026.csproj|solutionrelative:practica 02032026\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Validaciones.cs",
+              "DocumentMoniker": "C:\\Users\\roc53\\Documents\\SEMESTRE 4\\AdmOrgaDatos\\Unity\\Parcial 2\\Practica 02032026\\Practica 02032026\\Validaciones.cs",
+              "RelativeDocumentMoniker": "Practica 02032026\\Validaciones.cs",
+              "ToolTip": "C:\\Users\\roc53\\Documents\\SEMESTRE 4\\AdmOrgaDatos\\Unity\\Parcial 2\\Practica 02032026\\Practica 02032026\\Validaciones.cs",
+              "RelativeToolTip": "Practica 02032026\\Validaciones.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAswJoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T13:25:16.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\roc53\\Documents\\SEMESTRE 4\\AdmOrgaDatos\\Unity\\Parcial 2\\Practica 02032026\\Practica 02032026\\Program.cs",
+              "RelativeDocumentMoniker": "Practica 02032026\\Program.cs",
+              "ToolTip": "C:\\Users\\roc53\\Documents\\SEMESTRE 4\\AdmOrgaDatos\\Unity\\Parcial 2\\Practica 02032026\\Practica 02032026\\Program.cs",
+              "RelativeToolTip": "Practica 02032026\\Program.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAowNYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T13:10:19.075Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
