@@ -1,0 +1,14 @@
+C:\Users\roc53\Desktop\ExamenUnidad2 Cristian Rodriguez\Examen unidad 2\Examen unidad 2\bin\Debug\net8.0\Examen unidad 2.exe
+C:\Users\roc53\Desktop\ExamenUnidad2 Cristian Rodriguez\Examen unidad 2\Examen unidad 2\bin\Debug\net8.0\Examen unidad 2.deps.json
+C:\Users\roc53\Desktop\ExamenUnidad2 Cristian Rodriguez\Examen unidad 2\Examen unidad 2\bin\Debug\net8.0\Examen unidad 2.runtimeconfig.json
+C:\Users\roc53\Desktop\ExamenUnidad2 Cristian Rodriguez\Examen unidad 2\Examen unidad 2\bin\Debug\net8.0\Examen unidad 2.dll
+C:\Users\roc53\Desktop\ExamenUnidad2 Cristian Rodriguez\Examen unidad 2\Examen unidad 2\bin\Debug\net8.0\Examen unidad 2.pdb
+C:\Users\roc53\Desktop\ExamenUnidad2 Cristian Rodriguez\Examen unidad 2\Examen unidad 2\obj\Debug\net8.0\Examen unidad 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roc53\Desktop\ExamenUnidad2 Cristian Rodriguez\Examen unidad 2\Examen unidad 2\obj\Debug\net8.0\Examen unidad 2.AssemblyInfoInputs.cache
+C:\Users\roc53\Desktop\ExamenUnidad2 Cristian Rodriguez\Examen unidad 2\Examen unidad 2\obj\Debug\net8.0\Examen unidad 2.AssemblyInfo.cs
+C:\Users\roc53\Desktop\ExamenUnidad2 Cristian Rodriguez\Examen unidad 2\Examen unidad 2\obj\Debug\net8.0\Examen unidad 2.csproj.CoreCompileInputs.cache
+C:\Users\roc53\Desktop\ExamenUnidad2 Cristian Rodriguez\Examen unidad 2\Examen unidad 2\obj\Debug\net8.0\Examen unidad 2.dll
+C:\Users\roc53\Desktop\ExamenUnidad2 Cristian Rodriguez\Examen unidad 2\Examen unidad 2\obj\Debug\net8.0\refint\Examen unidad 2.dll
+C:\Users\roc53\Desktop\ExamenUnidad2 Cristian Rodriguez\Examen unidad 2\Examen unidad 2\obj\Debug\net8.0\Examen unidad 2.pdb
+C:\Users\roc53\Desktop\ExamenUnidad2 Cristian Rodriguez\Examen unidad 2\Examen unidad 2\obj\Debug\net8.0\Examen unidad 2.genruntimeconfig.cache
+C:\Users\roc53\Desktop\ExamenUnidad2 Cristian Rodriguez\Examen unidad 2\Examen unidad 2\obj\Debug\net8.0\ref\Examen unidad 2.dll
