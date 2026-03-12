@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class camara : MonoBehaviour
 {
-    //public AudioSource musica;
+    public AudioSource musica;
     // Start is called before the first frame update
     public Transform personaje; // optiene la corrdenada del personaje
     Vector3 posicion;
     Vector3 fueraCamara;
     float coorY;
     public float minCordX;
-    public float minCordy;
+    public float maxCordX;
     public float velocidadCamara = 10.0f;
     void Start()
     {
         //posicion = transform.position - personaje.position; // busca la posicion del personaje, y resta la posicion del personaje para saber donde esta
-        //musica.Play();
+        musica.Play();
         fueraCamara = transform.position - personaje.position;
         coorY = transform.position.y;
     }
@@ -30,7 +30,7 @@ public class camara : MonoBehaviour
     private void LateUpdate()
     {
         float objetivo = personaje.position.x + fueraCamara.x;
-        objetivo = Mathf.Clamp(objetivo, minCordX, minCordy);
+        objetivo = Mathf.Clamp(objetivo, minCordX, maxCordX);
         Vector3 objetivoX = new Vector3(objetivo, coorY, transform.position.z); // coordenadas de mi objetivo
         transform.position = Vector3.Lerp(transform.position, objetivoX, velocidadCamara * Time.deltaTime); // mandamos a la camara a vijilar
 
