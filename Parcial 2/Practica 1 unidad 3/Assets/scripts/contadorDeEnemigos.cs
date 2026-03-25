@@ -1,9 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
+//using System.Collections;
+//using System.Collections.Generic;
 using System.IO;
 using TMPro;
-using UnityEditor.VersionControl;
+//using UnityEditor.VersionControl;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class contadorDeEnemigos : MonoBehaviour
 {
@@ -12,12 +13,16 @@ public class contadorDeEnemigos : MonoBehaviour
     public TextMeshProUGUI texto2;
     public TextMeshProUGUI mensaje;
     public TMP_InputField nombre;
+    public TextMeshProUGUI jugador;
+    string player = "Sin nombre";
     // variables comunes
     public static int contEnemigos = 0;
     static StreamWriter archivo = null;
     static StreamReader leer = null;
     public static string dato = "0";
     public GameObject panel;
+    public GameObject panelNivel;
+   
      // bool est = false;
 
 
@@ -51,7 +56,12 @@ public class contadorDeEnemigos : MonoBehaviour
             Time.timeScale = 1f; // reaunida el juego
         }
             texto.text = "Enemigos Eliminados: " + contEnemigos.ToString();
-
+        if (contEnemigos >= 10)
+        {
+            Time.timeScale = 0;
+            panelNivel.SetActive(true);
+        }
+        jugador.text = player;
     }
     private void Start()
     {
@@ -75,6 +85,7 @@ public class contadorDeEnemigos : MonoBehaviour
       
             contEnemigos = int.Parse(d[0]);
             nombre.text = d[1];
+            player = d[1];
         }
     }
 
@@ -87,6 +98,24 @@ public class contadorDeEnemigos : MonoBehaviour
             return;
         }
         mensaje.text = "Guardado";
+        if (File.Exists("Puntaje.txt"))
+        {
+            File.Delete("Puntaje.txt");
+        }
+        archivo = File.AppendText("Puntaje.txt");
+        archivo.WriteLine(contEnemigos + " , " + nombre.text);
+        archivo.Close();
+        mensaje.text = "";
+        player = n.ToString();
+    }
+
+    public void SiguienteEscena()
+    {
+        GuardarAntesDeNivel();
+        SceneManager.LoadScene("Nivel2"); //loadScene("Nivel2");
+    }
+    void GuardarAntesDeNivel()
+    {
         if (File.Exists("Puntaje.txt"))
         {
             File.Delete("Puntaje.txt");
