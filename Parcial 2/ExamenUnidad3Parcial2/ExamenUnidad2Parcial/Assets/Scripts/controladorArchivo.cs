@@ -46,7 +46,7 @@ public class controladorArchivo
         }
         catch (Exception ex)
         {
-            Debug.LogError(ex.Message);
+            Debug.LogError("Error: " + ex.Message);
             return false;
         }
     }

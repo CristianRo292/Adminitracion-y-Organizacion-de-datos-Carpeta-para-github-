@@ -11,6 +11,7 @@ public class moverPajaro : MonoBehaviour
     //float coordY = 0.0f;
     public bool tocar_piso = false; // por defecto comieza elebado , sin tocar el piso
     public float fuerza = 10.0f; // fuerza del brico
+    public AudioSource musicaFruta;
 
 
     public float velocidadBala = 30.0f;
@@ -19,12 +20,13 @@ public class moverPajaro : MonoBehaviour
     public TextMeshProUGUI txt_Nombre;
     public TextMeshProUGUI txt_Puntaje;
     public GameObject panelNivel;
+    public GameObject panelPrincipal;
 
 
     void Start()
     {
         cuerpoBanana = GetComponent<Rigidbody2D>(); // digo que el cuerpo del banano es igual al objeto que tiene este script
-        //anime = GetComponent<Animator>(); // digo que la animacion es igual al componente de animacion que esta asociado a banano
+        
     }
     // Update is called once per frame
     void Update()
@@ -44,16 +46,12 @@ public class moverPajaro : MonoBehaviour
     {
         //cuerpoBanana.velocity = new Vector3(coordX * velocidad * Time.deltaTime,0 , 0); // hacemos que se mueva el banano
         cuerpoBanana.velocity = new Vector2(coordX * velocidad, cuerpoBanana.velocity.y);
-        //if (cuerpoBanana.velocity.x < 0)
-        //{
-
-        //}
+        
         if (Input.GetKey(KeyCode.Space))
         {
-            //print("saltando");
+            
             cuerpoBanana.AddForce(Vector2.up * fuerza, ForceMode2D.Impulse); // hago que banano salte
-            //tocar_piso = false;
-            //anime.SetBool("brincar", true); // activo animacion de saltar
+            
 
         }
         if (cuerpoBanana.velocity.y < 0) // si esta elevado eb y, entonces 
@@ -71,22 +69,23 @@ public class moverPajaro : MonoBehaviour
 
         if (collision.gameObject.tag == "manzana")
         {
-            //musicaFruta.Play();
+            musicaFruta.Play();
             print("eliminar");
             Destroy(collision.gameObject);
             mostrarDatosEscenaAnterior.EnemigosEliminados(); // madamos llamar a la funcion de otro scrip para aumtenar el contador
         }
         else if (collision.gameObject.tag == "bandera")
         {
-            //musicaFruta.Play();
-            //print("eliminar");
-            //Destroy(collision.transform.root.gameObject);
-            string[] datos = mostrarDatosEscenaAnterior.RetornarDatos().Split(" , ");
-            txt_Nombre.text = datos[1].ToString();
+           
+            panelPrincipal.SetActive(false);
+            string datosT = mostrarDatosEscenaAnterior.RetornarDatos();
+            string[] datos = datosT.Split(" , ");
+            txt_Nombre.text = "Puntaje optenido por: " + datos[1].ToString();
             txt_Puntaje.text = datos[0].ToString();
             panelNivel.SetActive(true);
+            archivo.ModificarAarchivo(parametro:datosT);
             Time.timeScale = 0f;
-            //contadorDeEnemigos.EnemigosEliminados(); // madamos llamar a la funcion de otro scrip para aumtenar el contador
+            
         }
     }
 }

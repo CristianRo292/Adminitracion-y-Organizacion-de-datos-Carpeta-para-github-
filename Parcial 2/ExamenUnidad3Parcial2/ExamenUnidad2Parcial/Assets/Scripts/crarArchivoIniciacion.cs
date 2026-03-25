@@ -29,7 +29,11 @@ public class crarArchivoIniciacion : MonoBehaviour
                     SceneManager.LoadScene("juego"); //loadScene("Nivel2");
                 }
             }
-            mensaje.text = "No tiene nombre";
+            else
+            {
+                mensaje.text = "No tiene nombre";
+            }
+                
             
         }
         catch (Exception ex)
